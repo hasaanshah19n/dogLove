@@ -1,0 +1,254 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: 0;
+  height: 650px;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 40px;
+}
+
+.container-fluid {
+  padding: 3% 10%
+}
+
+.NavSpacing {
+  padding-bottom: 50px;
+  padding-left: 0px;
+}
+
+.SpacingButton {
+  margin-left: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.MainImage {
+  transform: rotate(15deg);
+  margin-left: 120px;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (min-width: 992px) and (max-width: 1260px) {
+  .MainImage {
+    position: relative;
+    right: 150px;
+  }
+
+  #title {
+    background-color: #ff4c68;
+    height: 800px;
+  }
+}
+
+@media (max-width: 991px) {
+  .MainImage {
+    transform: rotate(0deg);
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 450px;
+    position: relative;
+    right: 50px;
+  }
+
+  #title {
+    background-color: #ff4c68;
+    height: 1100px;
+  }
+}
+
+@media (max-width: 541px) {
+  #title {
+    height: 950px;
+  }
+}
+
+@media (max-width:541px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width:991px) {
+  .ThirdCard {
+    margin-top: 20px;
+  }
+}
+
+.SecondDivision {
+  text-align: center;
+  padding: 150px 150px 150px 150px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+}
+
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+.Psecond_division {
+  color: #8f8f8f;
+}
+
+.Div1Image {
+  color: #ef8172;
+  margin-bottom: 30px;
+}
+
+.Div1Image:hover {
+  color: #ff4c68;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  .PushDown {
+    margin-top: 135px;
+  }
+}
+
+#testimonials {
+  text-align: center;
+  padding: 150px 100px 150px 100px;
+  background-color: #ef8172;
+}
+
+.ThirdDivP {
+  color: white;
+  font-family: 'Montserrat-bold', sans-serif;
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+.DogImage {
+  width: 20%;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.fourthDivPic {
+  width: 250px;
+  padding: 0 30px 50px 30px;
+}
+
+.LadyImg {
+  border-radius: 100%;
+  width: 20%;
+  margin-top: 50px;
+}
+
+.ThirdDivS {
+  color: white;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .ThirdDivP {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .DogImage {
+    width: 150px;
+    height: 150px;
+  }
+
+  .LadyImg {
+    width: 150px;
+    height: 150px;
+  }
+
+  #testimonials {
+    text-align: center;
+    padding: 100px 50px 100px 50px;
+    background-color: #ef8172;
+  }
+
+  .fourthDivPic {
+    width: 150px;
+    padding: 0 30px 50px 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .ThirdDivP {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.CenterCard {
+  text-align: center;
+  padding: 150px 100px 150px 100px;
+}
+
+.card-body {
+  height: 300px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.FifthDivP {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 150px 150px 150px 150px;
+  text-align: center;
+}
+
+.sixthDivP {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+}
+
+#footer {
+  padding: 80px 150px 80px 150px;
+  text-align: center;
+}
+
+.Links {
+  padding: 20px 20px 20px 20px;
+}
